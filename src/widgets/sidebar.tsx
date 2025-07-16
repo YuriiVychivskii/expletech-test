@@ -25,7 +25,7 @@ export default function Sidebar() {
   }, [checkMobile])
 
   return (
-    <aside className="w-full min-w-[280px] rounded bg-white px-2 py-5 shadow sm:min-w-[320px] md:max-w-[400px]">
+    <aside className="w-full rounded bg-white px-2 py-5 shadow md:max-w-[320px] lg:max-w-[400px]">
       {isMobile && !isVisible && (
         <div className="flex justify-between px-5 text-green-500">
           <p>Filters</p>
