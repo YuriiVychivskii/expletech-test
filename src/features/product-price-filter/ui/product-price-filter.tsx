@@ -1,16 +1,34 @@
 'use client'
 
+import { setPriceFilter } from '@/entities/products/model/product-slice'
+import { useAppDispatch } from '@/shared/store/hooks'
 import { Button } from '@/shared/ui/button'
 import { Input } from '@/shared/ui/input'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function ProductPriceFilter() {
+  const dispatch = useAppDispatch()
   const [minPrice, setMinPrice] = useState('')
   const [maxPrice, setMaxPrice] = useState('')
+  const [disable, setDisable] = useState(false)
 
   const handleFilter = () => {
-    console.log('Filtering from', minPrice, 'to', maxPrice)
+    const min = Number(minPrice) || 0
+    const max = maxPrice === '' ? 10000 : Number(maxPrice)
+
+    dispatch(setPriceFilter({ min, max }))
   }
+
+  useEffect(() => {
+    const min = Number(minPrice)
+    const max = maxPrice === '' ? 10000 : Number(maxPrice)
+
+    if (!isNaN(min) && !isNaN(max) && min > max) {
+      setDisable(true)
+    } else {
+      setDisable(false)
+    }
+  }, [minPrice, maxPrice])
 
   return (
     <form
@@ -20,7 +38,7 @@ export default function ProductPriceFilter() {
         handleFilter()
       }}
     >
-      <div className="flex min-w-[280px] items-center gap-5 sm:min-w-[320px] md:min-w-[400px]">
+      <div className="flex items-center gap-5">
         <label
           htmlFor="minPrice"
           className="text-muted-foreground text-sm font-medium"
@@ -50,13 +68,13 @@ export default function ProductPriceFilter() {
           min={0}
           value={maxPrice}
           onChange={(e) => setMaxPrice(e.target.value)}
-          placeholder="1000"
+          placeholder="10000"
         />
 
         <p className="text-muted-foreground text-sm">$</p>
       </div>
 
-      <Button type="submit" className="h-10">
+      <Button type="submit" className="h-10" disabled={disable}>
         Apply
       </Button>
     </form>
