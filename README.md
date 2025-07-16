@@ -1,4 +1,3 @@
-````markdown
 # 🛍️ Expletech Product Listing Test
 
 This is a frontend test task for **Expletech**: a product listing page built with **Next.js**, **TypeScript**, and **Redux**, featuring filtering, sorting, search, pagination, and detailed product views.
@@ -48,7 +47,6 @@ This is a frontend test task for **Expletech**: a product listing page built wit
 git clone https://github.com/YuriiVychivskii/expletech-test.git
 cd expletech-test
 ```
-````
 
 ### 2. Install dependencies
 
@@ -69,3 +67,7 @@ yarn dev
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
+
+```
+
+```
