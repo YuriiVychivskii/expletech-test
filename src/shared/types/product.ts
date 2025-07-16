@@ -26,4 +26,5 @@ export type ProductState = {
       max: number
     }
   }
+  page: number
 }

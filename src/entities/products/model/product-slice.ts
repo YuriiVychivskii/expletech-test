@@ -35,6 +35,7 @@ const initialState: ProductState = {
       max: 10000,
     },
   },
+  page: 1,
 }
 
 export const productSlice = createSlice({
@@ -52,6 +53,9 @@ export const productSlice = createSlice({
       action: PayloadAction<{ min: number; max: number }>,
     ) => {
       state.filters.priceFilter = action.payload
+    },
+    setPage: (state, action: PayloadAction<number>) => {
+      state.page = action.payload
     },
   },
   extraReducers: (builder) => {
@@ -74,6 +78,6 @@ export const productSlice = createSlice({
   },
 })
 
-export const { setCategory, setPriceFilter, setSearchQuery } =
+export const { setCategory, setPriceFilter, setSearchQuery, setPage } =
   productSlice.actions
 export default productSlice.reducer
