@@ -1,0 +1,386 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Headphones",
+    "image": "/products/headphones.jpeg",
+    "price": 99.99,
+    "category": "Electronics",
+    "description": "High quality wireless headphones with noise cancellation."
+  },
+  {
+    "id": "2",
+    "name": "Gaming Laptop",
+    "image": "/products/laptop.jpeg",
+    "price": 1299.99,
+    "category": "Electronics",
+    "description": "Powerful gaming laptop with high-end graphics card."
+  },
+  {
+    "id": "3",
+    "name": "iPhone XR",
+    "image": "/products/iphone-xr.jpeg",
+    "price": 799.99,
+    "category": "Electronics",
+    "description": "Sleek and powerful smartphone with excellent camera quality."
+  },
+  {
+    "id": "4",
+    "name": "Running Shoes",
+    "image": "/products/shoes.jpeg",
+    "price": 59.99,
+    "category": "Clothing",
+    "description": "Comfortable and durable running shoes for daily workouts."
+  },
+  {
+    "id": "5",
+    "name": "Coffee Maker",
+    "image": "/products/coffeemaker.jpeg",
+    "price": 49.99,
+    "category": "Home",
+    "description": "Brew delicious coffee in minutes with this modern coffee maker."
+  },
+  {
+    "id": "6",
+    "name": "Bluetooth Speaker",
+    "image": "/products/speaker.jpg",
+    "price": 29.99,
+    "category": "Electronics",
+    "description": "Portable speaker with deep bass and long battery life."
+  },
+  {
+    "id": "7",
+    "name": "Winter Jacket",
+    "image": "/products/jacket.jpeg",
+    "price": 119.99,
+    "category": "Clothing",
+    "description": "Stay warm during winter with this insulated jacket."
+  },
+  {
+    "id": "8",
+    "name": "LED Monitor",
+    "image": "/products/monitor.jpeg",
+    "price": 199.99,
+    "category": "Electronics",
+    "description": "24-inch LED monitor with full HD resolution."
+  },
+  {
+    "id": "9",
+    "name": "Office Chair",
+    "image": "/products/chair.jpeg",
+    "price": 89.99,
+    "category": "Home",
+    "description": "Ergonomic office chair for comfortable working hours."
+  },
+  {
+    "id": "10",
+    "name": "Backpack",
+    "image": "/products/backpack.jpeg",
+    "price": 39.99,
+    "category": "Clothing",
+    "description": "Durable backpack suitable for school or travel."
+  },
+  {
+    "id": "11",
+    "name": "Yoga Mat",
+    "image": "/products/yogamat.jpg",
+    "price": 24.99,
+    "category": "Sports",
+    "description": "Non-slip yoga mat for all levels of yoga practice."
+  },
+  {
+    "id": "12",
+    "name": "Electric Toothbrush",
+    "image": "/products/toothbrush.jpeg",
+    "price": 49.99,
+    "category": "Home",
+    "description": "Rechargeable toothbrush with multiple brushing modes."
+  },
+  {
+    "id": "13",
+    "name": "Sunglasses",
+    "image": "/products/sunglasses.jpeg",
+    "price": 19.99,
+    "category": "Clothing",
+    "description": "Stylish sunglasses with UV protection."
+  },
+  {
+    "id": "14",
+    "name": "Fitness Tracker",
+    "image": "/products/tracker.jpg",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "Track your steps, heart rate, and sleep quality."
+  },
+  {
+    "id": "15",
+    "name": "Blender",
+    "image": "/products/blender.jpeg",
+    "price": 39.99,
+    "category": "Home",
+    "description": "Make smoothies and sauces with this compact blender."
+  },
+  {
+    "id": "16",
+    "name": "Wireless Mouse",
+    "image": "/products/mouse.jpeg",
+    "price": 14.99,
+    "category": "Electronics",
+    "description": "Ergonomic wireless mouse with adjustable DPI."
+  },
+  {
+    "id": "17",
+    "name": "Cookware Set",
+    "image": "/products/cookware.webp",
+    "price": 129.99,
+    "category": "Home",
+    "description": "Non-stick cookware set including pots and pans."
+  },
+  {
+    "id": "18",
+    "name": "T-shirt Pack",
+    "image": "/products/tshirts.jpeg",
+    "price": 29.99,
+    "category": "Clothing",
+    "description": "Set of 3 cotton t-shirts in various colors."
+  },
+  {
+    "id": "19",
+    "name": "Basketball",
+    "image": "/products/basketball.jpeg",
+    "price": 25.99,
+    "category": "Sports",
+    "description": "Official size basketball for indoor and outdoor play."
+  },
+  {
+    "id": "20",
+    "name": "Smart Watch",
+    "image": "/products/smartwatch.jpeg",
+    "price": 199.99,
+    "category": "Electronics",
+    "description": "Stay connected and track your fitness goals."
+  },
+  {
+    "id": "21",
+    "name": "Leather Wallet",
+    "image": "/products/wallet.jpg",
+    "price": 34.99,
+    "category": "Clothing",
+    "description": "Premium leather wallet with multiple compartments."
+  },
+  {
+    "id": "22",
+    "name": "Desk Lamp",
+    "image": "/products/lamps.jpeg",
+    "price": 22.49,
+    "category": "Home",
+    "description": "LED desk lamp with adjustable brightness and angle."
+  },
+  {
+    "id": "23",
+    "name": "Wireless Keyboard",
+    "image": "/products/keyboard.webp",
+    "price": 27.99,
+    "category": "Electronics",
+    "description": "Slim wireless keyboard with quiet keys."
+  },
+  {
+    "id": "24",
+    "name": "Hiking Boots",
+    "image": "/products/boots.jpeg",
+    "price": 89.99,
+    "category": "Clothing",
+    "description": "Water-resistant hiking boots for rugged terrain."
+  },
+  {
+    "id": "25",
+    "name": "Hair Dryer",
+    "image": "/products/hairdryer.jpeg",
+    "price": 49.99,
+    "category": "Home",
+    "description": "High-speed hair dryer with multiple heat settings."
+  },
+  {
+    "id": "26",
+    "name": "Baseball Cap",
+    "image": "/products/cap.jpeg",
+    "price": 14.99,
+    "category": "Clothing",
+    "description": "Classic baseball cap with adjustable strap."
+  },
+  {
+    "id": "27",
+    "name": "Electric Kettle",
+    "image": "/products/kettle.jpeg",
+    "price": 39.99,
+    "category": "Home",
+    "description": "1.7L electric kettle with automatic shut-off."
+  },
+  {
+    "id": "28",
+    "name": "Tablet",
+    "image": "/products/tablet.webp",
+    "price": 299.99,
+    "category": "Electronics",
+    "description": "Lightweight tablet for work and entertainment."
+  },
+  {
+    "id": "29",
+    "name": "Dumbbell Set",
+    "image": "/products/dumbbells.jpeg",
+    "price": 59.99,
+    "category": "Sports",
+    "description": "Adjustable dumbbell set for home workouts."
+  },
+  {
+    "id": "30",
+    "name": "Scented Candles",
+    "image": "/products/candles.webp",
+    "price": 19.99,
+    "category": "Home",
+    "description": "Relaxing scented candles with essential oils."
+  },
+  {
+    "id": "31",
+    "name": "Winter Gloves",
+    "image": "/products/gloves.jpg",
+    "price": 24.99,
+    "category": "Clothing",
+    "description": "Warm and water-resistant gloves for winter."
+  },
+  {
+    "id": "32",
+    "name": "Tripod Stand",
+    "image": "/products/tripod.jpeg",
+    "price": 44.99,
+    "category": "Electronics",
+    "description": "Adjustable tripod for cameras and smartphones."
+  },
+  {
+    "id": "33",
+    "name": "Jeans",
+    "image": "/products/jeans.webp",
+    "price": 49.99,
+    "category": "Clothing",
+    "description": "Classic slim-fit jeans made with stretch denim."
+  },
+  {
+    "id": "34",
+    "name": "Portable Charger",
+    "image": "/products/powerbank.webp",
+    "price": 29.99,
+    "category": "Electronics",
+    "description": "10,000mAh power bank with fast charging."
+  },
+  {
+    "id": "35",
+    "name": "Table Fan",
+    "image": "/products/fan.jpeg",
+    "price": 39.99,
+    "category": "Home",
+    "description": "Oscillating table fan with quiet operation."
+  },
+  {
+    "id": "36",
+    "name": "Graphic T-Shirt",
+    "image": "/products/graphictee.jpeg",
+    "price": 19.99,
+    "category": "Clothing",
+    "description": "100% cotton t-shirt with printed design."
+  },
+  {
+    "id": "37",
+    "name": "Foam Roller",
+    "image": "/products/roller.jpeg",
+    "price": 21.99,
+    "category": "Sports",
+    "description": "Foam roller for post-workout muscle recovery."
+  },
+  {
+    "id": "38",
+    "name": "Smart Light Bulb",
+    "image": "/products/smartbulb.jpeg",
+    "price": 15.99,
+    "category": "Home",
+    "description": "Wi-Fi enabled smart bulb compatible with Alexa."
+  },
+  {
+    "id": "39",
+    "name": "Sneakers",
+    "image": "/products/sneakers.jpeg",
+    "price": 64.99,
+    "category": "Clothing",
+    "description": "Comfortable sneakers for daily wear."
+  },
+  {
+    "id": "40",
+    "name": "Electric Shaver",
+    "image": "/products/shaver.jpeg",
+    "price": 69.99,
+    "category": "Home",
+    "description": "Rechargeable electric shaver with precision blade."
+  },
+  {
+    "id": "41",
+    "name": "Laptop Stand",
+    "image": "/products/laptopstand.jpeg",
+    "price": 32.99,
+    "category": "Electronics",
+    "description": "Aluminum stand for laptops up to 17 inches."
+  },
+  {
+    "id": "42",
+    "name": "Rain Jacket",
+    "image": "/products/rainjacket.jpeg",
+    "price": 74.99,
+    "category": "Clothing",
+    "description": "Lightweight and waterproof rain jacket."
+  },
+  {
+    "id": "43",
+    "name": "Resistance Bands",
+    "image": "/products/resistancebands.webp",
+    "price": 19.99,
+    "category": "Sports",
+    "description": "Set of 5 resistance bands for strength training."
+  },
+  {
+    "id": "44",
+    "name": "Desk Organizer",
+    "image": "/products/organizer.webp",
+    "price": 18.99,
+    "category": "Home",
+    "description": "Keep your workspace tidy with this desk organizer."
+  },
+  {
+    "id": "45",
+    "name": "Casual Shirt",
+    "image": "/products/shirt.jpeg",
+    "price": 34.99,
+    "category": "Clothing",
+    "description": "Stylish shirt suitable for casual or office wear."
+  },
+  {
+    "id": "46",
+    "name": "Webcam",
+    "image": "/products/webcam.jpeg",
+    "price": 49.99,
+    "category": "Electronics",
+    "description": "1080p HD webcam with built-in microphone."
+  },
+  {
+    "id": "47",
+    "name": "Floor Lamp",
+    "image": "/products/floorlamp.webp",
+    "price": 59.99,
+    "category": "Home",
+    "description": "Modern floor lamp for cozy lighting."
+  },
+  {
+    "id": "48",
+    "name": "Track Pants",
+    "image": "/products/trackpants.webp",
+    "price": 44.99,
+    "category": "Clothing",
+    "description": "Comfortable and breathable track pants."
+  }
+]
