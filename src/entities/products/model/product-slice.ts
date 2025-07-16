@@ -1,3 +1,4 @@
+import { RootState } from '@/shared/store/store'
 import { Product, ProductCategory, ProductState } from '@/shared/types/product'
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
 
@@ -22,6 +23,9 @@ export const fetchProducts = createAsyncThunk<
   if (!res.ok) throw new Error('Failed to fetch products')
   return res.json()
 })
+
+export const selectProductById = (state: RootState, id: number) =>
+  state.product.products.find((p) => p.id === id) ?? null
 
 const initialState: ProductState = {
   products: [],
